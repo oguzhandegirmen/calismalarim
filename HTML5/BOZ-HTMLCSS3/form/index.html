@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+			/*width: 100%;*/
+			width: 150px;
+			padding: 12px 15px 12px 45px;
+			margin: 18px 0px;
+			border:3px solid red;
+			box-sizing: border-box;
+			border-radius: 14px;
+			/*background-color: darkmagenta;*/
+			color: white;
+			background-image: url(search.png);
+			background-repeat: no-repeat;
+			background-position: 10px 5px;
+		}
+        input[type=text]:focus {
+            background-color: darkmagenta;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 160px;
+            border: 3px solid red;
+            font-size: 20px;
+            resize: none;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid red;
+            border-radius: 5px;
+            background-color: cornsilk;
+        }
+
+        input[type=button],
+        input[type=reset],
+        input[type=submit] {
+            padding: 16px 25px;
+            background-color: greenyellow;
+            border: none;
+            color: white;
+            margin: 5px 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="Oguzhan">Adınızı giriniz</label>
+    <input type="text" name="Oguzhan" id="ad" placeholder="search...">
+    <label for="Değirmen">Soyadınızı giriniz</label>
+    <input type="text" name="Degirmen" id="soyad" placeholder="search...">
+
+    <textarea> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio facere quisquam eligendi enim repellendus perferendis expedita temporibus at delectus in laborum sequi nihil iste, soluta quod quidem quaerat? Non nihil voluptatem possimus? Molestias aperiam nulla officiis aliquam officia porro? Hic voluptate, magnam temporibus amet ut sit similique incidunt ea.</textarea>
+    <select name="ülke" id="ülke">
+        <option value="tr">Türkiye</option>
+        <option value="fr">Fransa</option>
+        <option value="en">İngiltere</option>
+    </select>
+    <input type="button" value="button">
+    <input type="submit" value="button">
+    <input type="reset" value="button">
+
+</body>
+
+</html>

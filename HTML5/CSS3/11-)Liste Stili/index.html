@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list1 li{
+            list-style: none
+        }
+        .list1 li::before{
+            content:'';
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background-image: url(img/logo.jpg) ;
+            background-size: 20px;
+        }
+
+        .list2 {
+            list-style-type: circle;
+            list-style-position: inside;
+        }
+
+        .list3  {
+            list-style-type: decimal;
+            list-style-position: inside;
+        }
+        .list4 {
+            list-style: circle inside none;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list1">
+        <li> eleman 1</li>
+        <li> eleman 2</li>
+        <li> eleman 3</li>
+
+    </ul>
+    <ul class="list2">
+        <li>eleman 1</li>
+        <li>eleman 2</li>
+        <li>eleman 3</li>
+        <li>eleman 4</li>
+    </ul>
+    <ul class="list3">
+        <li>eleman 1</li>
+        <li>eleman 2</li>
+        <li>eleman 3</li>
+    </ul>
+    <ul class="list4">
+        <li>eleman1</li>
+        <li>eleman2</li>
+        <li>eleman3</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            color: rgba(6, 6, 110, 0.979);
+        }
+
+        #fenerbahce {
+            font-family: 'Times New Roman', Times, serif;
+            background: url(img/fb.jpg) no-repeat;
+            background-size: 100% 300px;
+        }
+
+        .fenerbahceYazı {
+            font-size: 20px;
+            text-shadow: 0px 0px 1px black;
+            background-color: yellow;
+        }
+
+        .baskanlar {
+            float: left;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .baskan1 {
+            padding-top: 10px;
+            width: 33.33%;
+            float: left;
+
+        }
+
+        .baskanlar :nth-child(1) {
+            background: url(img/ali.jpg) no-repeat;
+            background-size: 100% 300px;
+        }
+
+        .baskanlar :nth-child(2) {
+            background: url(img/eyup.jpg) no-repeat; 
+            background-size: 100% 300px;
+        }
+
+        .baskanlar :nth-child(3) {
+            background: url(img/engo.jpg) no-repeat;
+            background-size: 100% 300px;
+        }
+
+        #sonuc {
+            clear: both;
+            background-color: yellow;
+            height: 330px;
+            color: black;
+        }
+
+        #sonuc img {
+            border: 10px dashed black;
+            margin-top: 30px;
+        }
+        #sonuc p{
+            white-space: pre-line;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fenerbahce">
+        <span class="fenerbahceYazı">
+            FENERBAHÇE SPOR KULÜBÜ BAŞKANLIK SEÇİMİ ADAYLARININ TEKNİK DİREKTÖR SEÇİMLERİ
+        </span>
+    </div>
+    <div class="baskanlar">
+        <div class="baskan1" style="size: 100% 300px;">
+            ALİ KOÇ
+            <p>
+                Anlaşacağı teknik direktör Marselo Bielsa
+            </p>
+        </div>
+        <div class="baskan1">
+            EYÜP YEŞİLYURT
+            <p>
+                Anlaşacağı teknik direktör Emre Belezoğlu
+            </p>
+        </div>
+        <div class="baskan1">
+            ENGİN VEREL
+            <p>
+                Anlaşacağı teknik direktör Cristhom Daum
+            </p>
+        </div>
+    </div>
+    <div id="sonuc">
+        <img src="img/logo.jpg" alt="">
+        <p>  <strong>FENERBAHÇE SPOR KULÜBÜ </strong> 
+         ~Güzel günler göreceğiz güneşli günler~
+        </p>
+    </div>
+</body>
+
+</html>

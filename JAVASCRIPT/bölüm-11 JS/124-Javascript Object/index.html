@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+    <p id="can"></p>
+
+    <script>
+
+        // var person={isim:"Can",soyisim:"Boz", yas:27};
+        var person={isim:"Can",
+        soyisim:"Boz",
+         yas:27,
+        fullname:function()
+        {
+            return this.isim+" "+this.soyisim;
+        }};
+        // document.getElementById("can").innerHTML=person.isim;
+        // document.getElementById("can").innerHTML=person.isim + " "+person.soyisim+ " "+person.yas+" yasındadır";
+        //document.getElementById("can").innerHTML=person["isim"] + " "+person["soyisim"]+ " "+person["yas"]+" yasındadır";
+        document.getElementById("can").innerHTML=person.fullname();
+
+    </script>
+
+</body>
+</html>

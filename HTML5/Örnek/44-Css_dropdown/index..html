@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		/*.can{
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content{
+			position: absolute;
+			display: none;
+			background-color: aquamarine;
+			min-width: 200px;
+			box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
+			padding: 15px 26px;
+			text-align: center;
+			font-size: 20px;
+		}
+		.can:hover .dropdown-content{
+			display: block;
+		}*/
+
+		.Dropdown{
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content{
+			position: absolute;
+			display: none;
+			background-color: rgb(216,233,227);
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropbtn{
+			background-color: green;
+			color:white;
+			padding: 20px;
+			font-size: 20px;
+			border:none;
+			cursor: pointer;
+		}
+		.dropdown-content a{
+			display: block;
+			color: white;
+			text-decoration: none;
+			padding: 12px 15px;
+		}
+		.Dropdown:hover .dropdown-content{
+			display: block;
+		}
+		.dropdown-content a:hover{
+			background-color: hotpink;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- <h1>Hoverable Dropdown</h1>
+
+	<div class="can">
+		<span>Beni TIKLA</span>
+		<div class="dropdown-content">
+			<p>Can Boz</p>
+		</div>
+	</div> -->
+
+	<h1>Hoverable Dropdown</h1>
+
+	<div class="Dropdown">
+		<button class="dropbtn">Butona Tıkla</button>
+		<div class="dropdown-content">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</div>
+	</div>
+
+</body>
+</html>

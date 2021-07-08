@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .ustliste {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #777;
+            overflow: auto;
+        }
+
+        .ustliste li {
+            float: left;
+        }
+
+        .ustliste li a {
+            display: inline-block;
+            color: white;
+            padding: 14px 15px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .can {
+            background-color: green;
+        }
+
+        .ustliste li a:hover {
+            background-color: aqua;
+        }
+
+
+        .css {
+            content: "";
+            clear: both;
+            display: table;
+
+        }
+
+        .sol li a {
+            display: block;
+            background-color: #eee;
+            margin-bottom: 4px;
+            padding: 8px;
+            
+        }
+
+        .sol ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sol li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .sol {
+            width: 25%;
+        }
+        .sol li a{
+            display: block;
+		padding: 10px;
+		margin-bottom: 4px;
+		text-decoration: none;
+        }
+
+        .gercek {
+            width: 75%;
+        }
+
+        .baslık {
+            float: left;
+            padding: 15px;
+        }
+
+        .sagyazı{
+            background-color: blue;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .altyazı {
+            background-color: #444;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="ustliste">
+        <li class="can"><a href="#home">HOME</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="about">ABOUT</a></li>
+    </ul>
+    <div class="css">
+        <div class="baslık sol ">
+            <ul>
+                <li><a href="#flight"> The Flight</a></li>
+                <li><a href="city"> The City</a></li>
+                <li><a href="#island"> The İsland</a></li>
+                <li><a href="#food"> The Food</a></li>
+                <li><a href="#people"> The People</a></li>
+                <li><a href="#history"> The History</a></li>
+                <li><a href="#oceans"> The Oceans</a>
+            </ul>
+        </div>
+
+        <div class="baslık gercek">
+            <div class="sagyazı ">
+                <h1>
+                    THE CITY
+                </h1>
+            </div>
+            <h1>
+                Chania
+            </h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Corporis sapiente sunt dolorem voluptates nostrum incidunt, perspiciatis
+                ducimus culpa nemo atque cupiditate animi! Voluptas facilis
+                corporis labore quisquam quam eligendi vero.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="altyazı">
+        <p>Footer Text</p>
+    </div>
+</body>
+
+</html>

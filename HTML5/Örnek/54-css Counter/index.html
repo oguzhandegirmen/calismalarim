@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+
+		/*body{
+			counter-reset: section;
+		}
+		h2::before{
+			counter-increment: section;
+			content: "Section " counter(section) ":";
+		}*/
+
+
+		body{
+			counter-reset: x;
+		}
+		h1{
+			counter-reset: y;
+		}
+		h1::before{
+			counter-increment: x;
+			content: "Section " counter(x) ".";
+		}
+		h2::before{
+			counter-increment: y;
+			content: counter(x) "." counter(y) " ";
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+
+	<!-- <h1>Can</h1>
+	<h2>Can</h2>
+	<h2>Can Boz</h2>
+	<h2>İbrahim Can Boz</h2> -->
+
+	<h1>Html Css Eğitimim</h1>
+	<h2>Html Eğitimi</h2>
+	<h2>Css Eğitimi</h2>
+
+	<h1>Script Eğitimim</h1>
+	<h2>Javascript eğitimim</h2>
+	<h2>VBSCRİPT Eğitimim</h2>
+
+
+
+</body>
+</html>

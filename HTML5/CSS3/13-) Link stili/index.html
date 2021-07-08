@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+            color: wheat;
+        }
+        .sosyalağ1 li{
+            list-style: none;
+        }
+
+        .sosyalağ1::before {
+            content: '';
+            display: inline-block;
+            height: 50px;
+            width: 75px;
+            background-image: url(img/face.jpg) ;
+            background-size: 75px;
+            
+            
+        }
+        .sosyalağ2 li{
+            list-style: none;
+        }
+        .sosyalağ2::before {
+            content: '';
+            display: inline-block;
+            height: 50px;
+            width: 75px;
+            background-image: url(img/insta.jpg);
+            background-size: 75px;
+        }
+        .sosyalağ3 li{
+            list-style: none;
+        }
+        .sosyalağ3::before{
+            content: '';
+            display: inline-block;
+            height: 65px ;
+            width: 65px;
+            background-image: url(img/twiti.jpg);
+            background-size: 75px;
+        }
+        a:link{
+            color: rgb(31, 31, 24);
+        }
+        a{
+            text-decoration: none;
+            transition: color   1s linear;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul class="sosyalağ1">
+        <li>
+            <a href="https://www.facebook.com" target="_blank">   FACEBOOK'A GİT </a>
+        </li>
+
+    </ul>
+    <ul class="sosyalağ2">
+        <li>
+            <a href="https://www.instagram.com" target="_blank"> İNSTAGRAM'A GİT </a>
+        </li>
+    </ul>
+    <ul class="sosyalağ3">
+        <li sosyalağ3>
+            <a href="https://www.twitter.com" target="_blank"> TWİTTER'A </a>
+        </li>
+    </ul>
+</body>
+
+</html>

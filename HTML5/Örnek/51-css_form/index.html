@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		input[type=text]{
+			/*width: 100%;*/
+			width: 150px;
+			padding: 12px 15px 12px 45px;
+			margin: 18px 0px;
+			border:3px solid red;
+			box-sizing: border-box;
+			border-radius: 14px;
+			/*background-color: darkmagenta;*/
+			color: white;
+			background-image: url(search.png);
+			background-repeat: no-repeat;
+			background-position: 10px 5px;
+		}
+
+		input[type=text]:focus{
+			background-color: darkmagenta;
+			width:100%;
+		}
+
+		textarea{
+			width: 100%;
+			height: 160px;
+			border:3px solid red;
+			font-size: 20px;
+			resize: none;
+		}
+		select{
+			width: 100%;
+			padding: 10px 15px;
+			border: 1px solid red;
+			border-radius: 5px;
+			background-color: cornsilk;
+		}
+		input[type=button],input[type=reset],input[type=submit]{
+			padding: 16px 25px;
+			background-color: greenyellow;
+			border: none;
+			color: white;
+			margin: 5px 3px;
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+
+	<form action="">
+
+		<label for="can">Adınızı Giriniz:</label>
+		<input type="text" name="can" placeholder="Search...">
+
+		<label for="boz">Soyadınızı Giriniz:</label>
+		<input type="text" name="boz" >
+
+		<textarea>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+
+		<select name="ulke">
+			<option value="tr">Türkiye</option>
+			<option value="fr">Français</option>
+			<option value="en">England</option>
+		</select>
+
+		<input type="button" value="Button">
+		<input type="reset" value="Button">
+		<input type="submit" value="Button">
+
+
+	</form>
+
+</body>
+</html>
